@@ -1,0 +1,35 @@
+Node,Degree,Ground_Truth_Faction,Louvain,Label_Propagation,Girvan_Newman_Optimal,Girvan_Newman_k2,Is_Boundary_or_Shifting,Topological_Role_and_Reason
+1,16,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,Stable core instructor (Mr. Hi); primary structural anchor for Cluster 1.
+2,9,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,Stable core lieutenant to Mr. Hi; dense local connections.
+3,10,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C3,GN_k2_C1,Yes,"High-degree broker (degree 10); connects to Mr. Hi core but cross-links to 28, 29, 33; grouped with Officer in GN."
+4,6,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,Stable core member within Mr. Hi community.
+5,3,Mr. Hi,Louvain_C4,LPA_C4,GN_Opt_C4,GN_k2_C2,Yes,"Mr. Hi peripheral sub-clique; tightly knit with 6, 7, 11, 17; isolated in modularity partitions."
+6,4,Mr. Hi,Louvain_C4,LPA_C3,GN_Opt_C4,GN_k2_C2,Yes,"Mr. Hi peripheral sub-clique member; bridges to 5, 7, 11, 17."
+7,4,Mr. Hi,Louvain_C4,LPA_C3,GN_Opt_C4,GN_k2_C2,Yes,"Mr. Hi peripheral sub-clique member; bridges to 5, 6, 11, 17."
+8,4,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,Stable core member within Mr. Hi community.
+9,5,Mr. Hi,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,Yes,"Peripheral bridge (degree 5); 3 of 5 ties link to Officer core (31, 33, 34); all algorithms assign to Officer."
+10,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C5,GN_k2_C1,Yes,Low-degree bridge (degree 2); ties to Node 3 and 34; becomes isolated singleton in GN optimal partition.
+11,3,Mr. Hi,Louvain_C4,LPA_C4,GN_Opt_C4,GN_k2_C2,Yes,"Mr. Hi sub-clique member; tightly knit with 5, 6, 7, 17."
+12,1,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,Stable core pendant member linking exclusively to Node 1.
+13,2,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,Stable core member linking to Node 1 and Node 4.
+14,5,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,"Stable core member linking to Nodes 1, 2, 3, 4."
+15,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 33, 34."
+16,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 33, 34."
+17,2,Mr. Hi,Louvain_C4,LPA_C3,GN_Opt_C4,GN_k2_C2,Yes,"Mr. Hi sub-clique member; pendant tie to Nodes 6, 7."
+18,2,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,"Stable Officer core member linking to Nodes 1, 2."
+19,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 33, 34."
+20,3,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,"Stable Mr. Hi member linking to Nodes 1, 2, 34."
+21,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 33, 34."
+22,2,Mr. Hi,Louvain_C2,LPA_C2,GN_Opt_C2,GN_k2_C2,No,"Stable Mr. Hi member linking to Nodes 1, 2."
+23,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 33, 34."
+24,5,Officer,Louvain_C3,LPA_C1,GN_Opt_C1,GN_k2_C1,Yes,"Officer subgroup transition node (degree 5); borders between Officer core (33, 34) and peripheral clique (25-29)."
+25,3,Officer,Louvain_C3,LPA_C1,GN_Opt_C3,GN_k2_C1,Yes,"Officer subgroup member (degree 3); clusters with 26, 28, 29, 32."
+26,3,Officer,Louvain_C3,LPA_C1,GN_Opt_C3,GN_k2_C1,Yes,"Officer subgroup member (degree 3); clusters with 25, 28, 29, 32."
+27,2,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 30, 34."
+28,4,Officer,Louvain_C3,LPA_C1,GN_Opt_C3,GN_k2_C1,Yes,"Officer subgroup member (degree 4); connects to Node 3, 24, 25, 34."
+29,3,Officer,Louvain_C3,LPA_C1,GN_Opt_C3,GN_k2_C1,Yes,"Officer subgroup member (degree 3); connects to Node 3, 32, 34."
+30,4,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 24, 27, 33, 34."
+31,4,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,"Stable Officer core member linking to Nodes 1, 9, 33, 34."
+32,6,Officer,Louvain_C3,LPA_C1,GN_Opt_C3,GN_k2_C1,Yes,"High-degree Officer liaison (degree 6); connects Officer core (33, 34) to peripheral clique (25, 29)."
+33,12,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,Stable Officer co-leader (degree 12); central hub of Cluster 2.
+34,17,Officer,Louvain_C1,LPA_C1,GN_Opt_C1,GN_k2_C1,No,Stable Officer president (degree 17); highest-degree structural hub of the network.
