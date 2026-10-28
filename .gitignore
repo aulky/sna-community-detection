@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+Laporan_Tugas_3_SNA.docx
+REPORT_INDIVIDUAL_ASSIGNMENT_3.md
+community_detection_zachary.ipynb
+
+.vscode/
+build_docx.py
+LAPORAN_INDIVIDUAL_ASSIGNMENT_3.md
+
+# Office temporary files
+~$*
+*.tmp
