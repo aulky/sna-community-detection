@@ -21,42 +21,6 @@ Studi kasus menggunakan jaringan sosial klasik **Zachary Karate Club** (Wayne W.
 
 ---
 
-## 📁 Struktur Repositori
-
-```text
-sna-community-detection/
-├── Individual_Assignment_3.ipynb          # Notebook bersih khusus pengumpulan (semua output & plot sudah ter-render)
-├── community_detection_zachary.ipynb      # Notebook komprehensif (analisis mendalam, rumus matematika, dan diskusi)
-├── Laporan_Tugas_3_SNA.docx               # Laporan formal Microsoft Word (.docx) siap kumpul (gambar & tabel tersemat)
-├── LAPORAN_INDIVIDUAL_ASSIGNMENT_3.md     # Dokumen laporan format Markdown (Bahasa Indonesia)
-├── REPORT_INDIVIDUAL_ASSIGNMENT_3.md      # Dokumen laporan format Markdown (English Version)
-├── build_docx.py                          # Skrip Python untuk kompilasi otomatis file .docx dengan formatting rapi
-├── main.py                                # Skrip pipeline eksekusi CLI utama
-├── test_pipeline.py                      # Skrip validasi pipeline eksperimen
-├── pyproject.toml                         # Konfigurasi dependensi project (uv / pip)
-├── uv.lock                                # Lockfile dependensi deterministik
-│
-├── ucidata-zachary/                       # Dataset Zachary Karate Club (Zenodo / KONECT)
-│   ├── out.ucidata-zachary                # Edge list jaringan (34 nodes, 78 edges)
-│   ├── meta.ucidata-zachary               # Metadata dataset
-│   └── README.ucidata-zachary             # Dokumentasi sitasi dataset
-│
-├── results/                               # Berkas keluaran metrik evaluasi (CSV)
-│   ├── community_detection_summary.csv    # Ringkasan metrik Q, ARI, NMI, dan ukuran komunitas
-│   ├── partition_ari_matrix.csv           # Matriks kesamaan antar-algoritma (ARI)
-│   ├── partition_nmi_matrix.csv           # Matriks kesamaan antar-algoritma (NMI)
-│   └── node_community_assignments.csv     # Pemetaan label komunitas dan analisis peran tiap node
-│
-└── figures/                               # Visualisasi resolusi tinggi (PNG 300 DPI)
-    ├── community_detection_comparison.png       # 4 panel graf perbandingan partisi komunitas
-    ├── girvan_newman_modularity_curve.png       # Kurva progresi modularitas Girvan-Newman vs k
-    ├── girvan_newman_k2_vs_ground_truth.png     # Perbandingan faksi empiris vs Girvan-Newman k=2
-    ├── algorithm_metrics_comparison.png         # Bar chart perbandingan jumlah komunitas & Q score
-    ├── partition_similarity_heatmap.png         # Heatmap matriks kesamaan ARI & NMI
-    └── node_shifts_and_transition_nodes.png     # Pemetaan node perantara (broker) & batas
-```
-
----
 
 ## 🥋 Tentang Dataset
 
